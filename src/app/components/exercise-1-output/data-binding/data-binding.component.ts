@@ -13,8 +13,8 @@ export class DataBindingComponent {
 
   valorInicial = 15;
 
-  onMudouValor() {
-    
+  onMudouValor(evento: any) {
+    console.log(evento.novoValor)
   }
 
 }
