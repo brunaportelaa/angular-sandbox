@@ -1,1 +1,14 @@
-<p>course-page works!</p>
+<div class="card-container">
+  <app-course-card
+    (courseSelected)="onCourseSelected($event)"
+    [course]="courses[0]"
+  />
+  <app-course-card
+    (courseSelected)="onCourseSelected($event)"
+    [course]="courses[1]"
+  />
+  <app-course-card
+    (courseSelected)="onCourseSelected($event)"
+    [course]="courses[2]"
+  />
+</div>
